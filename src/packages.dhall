@@ -1,4 +1,23 @@
-{ abc-parser =
+{ typeable =
+  { dependencies =
+    [ "arrays"
+    , "const"
+    , "control"
+    , "either"
+    , "exists"
+    , "foldable-traversable"
+    , "identity"
+    , "leibniz"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/yaitskov/purescript-typeable.git"
+  , version = "1.0.0"
+  }
+, abc-parser =
   { dependencies =
     [ "arrays"
     , "bifunctors"
