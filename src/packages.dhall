@@ -15,7 +15,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/yaitskov/purescript-typeable.git"
-  , version = "1.0.0"
+  , version = "v1.0.0"
   }
 , abc-parser =
   { dependencies =
